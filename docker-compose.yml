@@ -12,4 +12,4 @@ services:
       - ./:/usr/src/app
     command: sh -c "cd my_app && yarn start"
     ports:
-      - "3000:3000"
+      - "3001:3000"
